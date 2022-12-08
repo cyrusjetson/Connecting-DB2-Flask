@@ -2,8 +2,8 @@
 
 ############ IMPORTANT  #########
 # NOTE: Here I took customer care registry project for example
-# DESC: in customer care registry customer or agent or admin login with his credentials if credentials are valid he will
-# be navigated to his respective page
+# DESC: in customer care registry customer or agent or admin login with his credentials if credentials are valid he/she will
+# be navigated to his/her respective page
 
 from flask import Flask, render_template, request, redirect, session, url_for, request
 import ibm_db
