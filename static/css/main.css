@@ -1,0 +1,10 @@
+.sign {
+  border-radius: 1rem;
+  background-color: #fefefb;
+  border-color: black;
+  padding-left: 5px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  text-align: center;
+  padding: 1%;
+}
+
