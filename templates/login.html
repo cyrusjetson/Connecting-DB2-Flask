@@ -5,16 +5,36 @@
 
 <body>
 
-{{ msg }}  # to display error msg
+
+         <form action='/login'>
+
+                    <div>
+                        Username
+                    </div>
+                    <div>
+                        <input  maxlength=30 type="text" name="username">
+                    </div>
+                </div>
+
+                <div>
+                    <div>
+                        Password
+                    </div>
+                    <div>
+                        <input maxlength=20 type="password" name="pass">
+                    </div>
+                </div>
+                {% if msg|length > 3 %}
+                <b>{{ msg }}</b> <br><br>
+
+                {% endif %}
+
+                <div>
+                    <button type="submit"> Sign In >></button>
+                </div>
 
 
-<form action='/login'>
-
-   inputs for name other content
-
-   Submit button
-
-</form>
+        </form>
 
 
 </body>
