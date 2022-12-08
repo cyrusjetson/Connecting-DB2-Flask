@@ -1,5 +1,5 @@
-# Connecting-DB2-Flask
-code for connecting DB2 with flask
+# Connecting-DB2-Flask <img alt="Visitor Badge" src="https://visitor-badge.feriirawann.repl.co?username=cyrusjetson&repo=Connecting-DB2-Flask&label=VISITS&style=plastic&color=%23457BFF&contentType=svg">
+# code for connecting DB2 with flask
 
 ## If you have any doubts you can comment on youtube channel or make PR or issue
 
