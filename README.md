@@ -4,6 +4,7 @@ code for connecting DB2 with flask
 ## If you have any doubts you can comment on youtube channel or make PR or issue
 
 ## Structure
+## Kindly follow the appropriate naming conventions
 
 main_folder
 
