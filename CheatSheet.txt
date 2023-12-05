@@ -1,0 +1,28 @@
+
+from flask import Flask, render_template, request, redirect, session, url_for
+import ibm_db
+
+######### code for connect ##############
+app.secret_key = 'a'
+print("Trying to connect...")
+conn = ibm_db.connect("DATABASE=bludb;HOSTNAME=;PORT=30119;SECURITY=SSL;SSLServerCertificate=DigiCertGlobalRootCA.crt;UID=qvk70423;PWD=;", '', '')
+print("connected..")
+
+############ selecting details from db2 table ##########
+    sql = "select * from table_name"
+    data = []
+    stmt = ibm_db.prepare(conn, sql)
+    ibm_db.execute(stmt)
+    dictionary = ibm_db.fetch_assoc(stmt)
+    while dictionary != False:
+        data.append(dictionary)
+        dictionary = ibm_db.fetch_assoc(stmt)
+
+########### sending data to another html file ##########
+return render_template('index.html', data=data)
+
+############ accessing data in html file using jinja2 ############
+{{ data['key_name'] }}
+
+############## for SSL certificate ##############
+properties in query page , download certificate, paste in same folder of app.py
