@@ -34,4 +34,4 @@ main_folder
 
 
   ## For SSL Certificate
-  properties in query page , download certificate, paste in same folder of app.py
+  Visit properties in query page, download the SSL certificate, paste in same folder of app.py
