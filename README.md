@@ -31,4 +31,7 @@ main_folder
             - main.css
             
         - assets (for storing images or other content)
-  
+
+
+  ## For SSL Certificate
+  properties in query page , download certificate, paste in same folder of app.py
